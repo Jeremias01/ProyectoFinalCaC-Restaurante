@@ -1,8 +1,0 @@
-data\UsuarioDao.class
-controller\usuarioServletController.class
-data\Conexion.class
-controller\platoServletController.class
-model\Usuario.class
-data\PlatoDao.class
-data\Conexionlogin.class
-model\Plato.class

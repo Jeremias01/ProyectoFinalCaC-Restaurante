@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Iniciar sesión</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    </head>
+    <body class="background">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../media/logoRestaurante.png" class="img-fluid" alt="logo" id="logo">
+                Restaurante CAC
+            </a>
+        </nav>
+        <!-- Contenido principal -->
+        <div  class="container my-3 py-3 fondoForm d-flex flex-column align-items-center w-50">
+            <div class="py-3" id="titulo">
+                <h1 class="pb-3 text-center text-dark fuenteLobster">Iniciar sesión</h1>
+            </div>
+            <form id="addForm" method="post" enctype="multipart/form-data">
+                <div>
+                    <!-- Campos -->
+                    <div class="form-floating my-3">
+                        <input type="text" class="form-control" id="Usuario" name="Usuario" required>
+                        <label for="Usuario">Usuario</label>
+                    </div>
+
+                    <div class="form-floating my-3">
+                        <input type="password" class="form-control" id="Contraseña" name="Contraseña" required>
+                        <label for="Contraseña">Contraseña</label>
+                    </div>
+                </div>
+                <p>¿No tenés una cuenta? Registrate <a href="Registro.html">aquí</a>.</p>
+                <!-- Botones -->
+                <div class="d-flex flex-nowrap gap-1">
+                    <button type="submit" class="btn btn-success" id="guardarFormBtn">Acceder</button>
+                    <a class="btn btn-danger" href="../index.html" role="button">Cancelar</a>
+                </div>
+            </form>
+        </div>
+
+        <script src="../js/Login.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        
+    </body>
+</html>
