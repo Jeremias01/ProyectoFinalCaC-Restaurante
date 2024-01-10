@@ -6,8 +6,8 @@ import org.apache.commons.dbcp2.BasicDataSource;
 
 public class Conexionlogin {
     private static final String DB_CON = "jdbc:mysql://localhost:3306/login?serverTimezone=UTC&useSSL=false&useUnicode=yes&characterEncoding=UTF-8";
-    private static final String DB_USER = "root";
-    private static final String DB_PASS = "admin";
+    private static final String DB_USER = "";
+    private static final String DB_PASS = "";
     
    public static DataSource getDataSourcelogin(){
        BasicDataSource ds = new BasicDataSource();
