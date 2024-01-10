@@ -8,8 +8,8 @@ import org.apache.commons.dbcp2.BasicDataSource;
 
 public class Conexion {
     private static final String DB_CON = "jdbc:mysql://localhost:3306/menu?serverTimezone=UTC&useSSL=false&useUnicode=yes&characterEncoding=UTF-8";
-    private static final String DB_USER = "root";
-    private static final String DB_PASS = "admin";
+    private static final String DB_USER = "";
+    private static final String DB_PASS = "";
     
    public static DataSource getDataSource(){
        BasicDataSource ds = new BasicDataSource();
